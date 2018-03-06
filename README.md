@@ -7,3 +7,6 @@
 - sql：文件在src/main/resources中，本地使用，请修改application.properties
 
 ### 版权声明：源码仅供参考，如有错误请联系本人，转载时请注明出处
+
+
+### 2018.3.6进行重构迁移项目
