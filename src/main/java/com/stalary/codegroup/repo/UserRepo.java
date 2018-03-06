@@ -3,6 +3,7 @@ package com.stalary.codegroup.repo;
 import com.stalary.codegroup.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -11,6 +12,7 @@ import java.util.List;
  * @Description:用户数据库操作层
  * @Date Created in 2017/8/24
  */
+@Repository
 public interface UserRepo extends JpaRepository<User, Integer> {
 
     /**
@@ -44,5 +46,5 @@ public interface UserRepo extends JpaRepository<User, Integer> {
     /**
      * 通过id查找用户
      */
-    User findByKeyId(int id);
+    User findById(int id);
 }

@@ -27,8 +27,10 @@ public class AlterController {
 
     @Autowired
     private AdminService adminService;
+
     @Autowired
     private UserService userService;
+
     @Autowired
     private RankService rankService;
 

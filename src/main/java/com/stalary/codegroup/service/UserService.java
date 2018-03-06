@@ -44,7 +44,7 @@ public class UserService {
     }
 
     public User findByKeyId(int id) {
-        return userRepo.findByKeyId(id);
+        return userRepo.findById(id);
     }
 
     public void deleteById(int id) {

@@ -17,8 +17,8 @@ public class Log extends BaseObject{
     public Log() {
     }
 
-    public Log(Integer keyId) {
-        this.keyId = keyId;
+    public Log(Integer id) {
+        this.id = id;
     }
 
     public String getContent() {

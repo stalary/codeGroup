@@ -12,13 +12,13 @@ public abstract class BaseObject {
         this.latestTime = new Date();
     }
 
-    public BaseObject(Integer keyId) {
-        this.keyId = keyId;
+    public BaseObject(Integer id) {
+        this.id = id;
     }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    protected Integer keyId;
+    protected Integer id;
 
 
     /**
@@ -29,12 +29,12 @@ public abstract class BaseObject {
     protected Date latestTime;
 
 
-    public void setKeyId(Integer keyId) {
-        this.keyId = keyId;
+    public void setKeyId(Integer id) {
+        this.id = id;
     }
 
     public Integer getKeyId() {
-        return keyId;
+        return id;
     }
 
     public Date getLatestTime() {

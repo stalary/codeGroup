@@ -20,8 +20,8 @@ public class Rank extends BaseObject{
     public Rank() {
     }
 
-    public Rank(Integer keyId) {
-        this.keyId = keyId;
+    public Rank(Integer id) {
+        this.id = id;
     }
 
     public Integer getUser_keyId() {

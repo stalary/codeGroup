@@ -30,8 +30,8 @@ public class User extends BaseObject{
     public User() {
     }
 
-    public User(Integer keyId) {
-         this.keyId = keyId;
+    public User(Integer id) {
+         this.id = id;
     }
 
     public String getName() {

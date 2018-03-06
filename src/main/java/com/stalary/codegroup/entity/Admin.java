@@ -23,8 +23,8 @@ public class Admin extends BaseObject{
     public Admin() {
     }
 
-    public Admin(Integer keyId) {
-        this.keyId = keyId;
+    public Admin(Integer id) {
+        this.id = id;
     }
 
     public String getName() {

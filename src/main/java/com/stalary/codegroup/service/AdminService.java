@@ -57,6 +57,6 @@ public class AdminService {
     }
 
     public Admin findByKeyId(int id) {
-        return adminRepo.findByKeyId(id);
+        return adminRepo.findById(id);
     }
 }
